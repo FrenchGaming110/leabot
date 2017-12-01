@@ -8,3 +8,7 @@ bot.on("ready", function(){
 })
 
 bot.login("Mzc2MzM5NTg3Njk5ODM0ODgx.DQMT0g.YIHj8HWu2lzxzCHYE0NiLQW8vF4");
+
+client.on('message', message => {
+    if (message.content === (".test")){
+    message.channel.send('Test concluant! Bravo!');
